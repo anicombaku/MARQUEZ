@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+<body>
+  <section class="contact-form">
+  <h2>Get in Touch with Us</h2>
+  <form>
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your full name" required />
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your email address" required />
+
+    <label>Phone Number:</label>
+    <input type="tel" placeholder="Enter your phone number" required />
+
+    <label>Category:</label>
+    <select required>
+      <option>General Inquiry</option>
+      <option>Consultation Request</option>
+      <option>Support</option>
+    </select>
+
+    <label>Preferred Appointment Date and Time:</label>
+    <input type="datetime-local" />
+
+    <label>Upload a File (if applicable):</label>
+    <input type="file" />
+
+    <label>Message:</label>
+    <textarea placeholder="Write your message here" rows="4"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+<link rel="stylesheet" href="static/contact.css">
+
+</body>
+</html>

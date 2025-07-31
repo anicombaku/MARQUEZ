@@ -1,0 +1,97 @@
+body {
+  background-color: aqua;
+  color: rgb(0, 0, 0); /* optional: improves text visibility */
+  font-family: Arial, sans-serif;
+}
+
+
+.main-tittle {
+  font-size: 45px;
+  font-weight: 600;
+  color: yellowgreen;
+  position: relative;
+   animation: moveLeftToRight 10s ease-out forwards;
+ 
+}
+
+
+.explore-btn:hover {
+  background-color: #0b5ed7;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    left: -1000px;
+    opacity: 0;
+  }
+  80% {
+    opacity: 2;
+  }
+  100% {
+    left: 0;
+  }
+  
+}
+
+.nav-links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin: 0 25px;         /* Space between links */
+  color: #0a66c2;         /* Link color */
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: orange;          /* Hover color */
+  text-decoration: underline;
+}
+
+.hero-section {
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-video {
+  flex: 1 1 500px;
+}
+
+.hero-content {
+  flex: 1 1 500px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background-color: #0d6efd;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
